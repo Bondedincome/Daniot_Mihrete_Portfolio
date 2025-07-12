@@ -1,0 +1,43 @@
+/* Projects page specific styles */
+
+/* Gradient text */
+.gradient-text {
+    background: linear-gradient(135deg, #f43f5e, #a855f7, #f97316);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Button styles */
+.btn-primary {
+    background: linear-gradient(135deg, #f43f5e, #a855f7);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(244, 63, 94, 0.3);
+    color: white;
+}
+
+/* Project card hover effects */
+.project-card {
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Technology tag animations */
+.project-card .bg-gradient-to-r {
+    transition: all 0.3s ease;
+}
+
+.project-card:hover .bg-gradient-to-r {
+    background: linear-gradient(135deg, #f43f5e, #a855f7);
+    color: white;
+    border-color: transparent;
+}

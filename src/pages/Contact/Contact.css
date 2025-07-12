@@ -1,0 +1,47 @@
+/* Contact page specific styles */
+
+/* Gradient text */
+.gradient-text {
+    background: linear-gradient(135deg, #f43f5e, #a855f7, #f97316);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Button styles */
+.btn-primary {
+    background: linear-gradient(135deg, #f43f5e, #a855f7);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(244, 63, 94, 0.3);
+    color: white;
+}
+
+/* Form input focus effects */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background: rgba(30, 41, 59, 0.8);
+    border-color: #f43f5e;
+    box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.1);
+}
+
+/* Contact info card hover effects */
+.contact-info .bg-gradient-to-r {
+    transition: all 0.3s ease;
+}
+
+.contact-info .bg-gradient-to-r:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(244, 63, 94, 0.2);
+}
+
+/* Social links hover animation */
+.contact-info a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(244, 63, 94, 0.3);
+}
