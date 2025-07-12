@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
-// import whiteLogo from '../../assets/whiteLogo.png'
+import whiteLogo from '../../assets/whiteLogo.png'
 
-function Header() {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -15,9 +15,16 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold font-poppins gradient-text">
-              Daniot Mihrete
+          <div className="flex items-center ml-4">
+            <Link to="/" className="flex items-center space-x-3 group ">
+              <img 
+                src={whiteLogo} 
+                alt="Daniot Mihrete Logo" 
+                className="h-8 w-auto transition-transform duration-300 group-hover:scale-110"
+              />
+              {/* <span className="text-2xl font-bold font-poppins gradient-text">
+                Daniot Mihrete
+              </span> */}
             </Link>
           </div>
 
