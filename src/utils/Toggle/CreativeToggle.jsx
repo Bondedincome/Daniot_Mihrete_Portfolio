@@ -22,7 +22,7 @@ function CreativeToggle({ theme, onToggle }) {
         <div
           className="creative-toggle-knob"
           style={{
-            left: isLogic ? 'calc(100% - 88px)' : '8px',
+            left: isLogic ? 'calc(100% - 128px)' : '8px',
             background: isLogic ? '#a084ca' : '#f6e3b4',
             boxShadow: '0 4px 16px rgba(0,0,0,0.15)',
           }}
