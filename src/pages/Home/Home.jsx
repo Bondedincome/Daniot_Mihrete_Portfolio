@@ -45,9 +45,9 @@ function Home() {
 					{/* Name and Title */}
 					<div className="mb-8">
 						<h1 className="text-6xl md:text-8xl font-bold mb-4 leading-tight font-poppins">
-							<span className="gradient-text">Daniot</span>
-							<br />
-							<span className="text-white">Mihrete</span>
+							<span className="gradient-text">Daniot Mihrete</span>
+							{/* <br /> */}
+							{/* <span className="text-white">Mihrete</span> */}
 						</h1>
 						<h2 className="text-2xl md:text-3xl text-slate-300 font-medium font-inter">
 							Creative Developer & Problem Solver
