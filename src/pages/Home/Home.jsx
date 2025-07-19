@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../../theme/ThemeContext";
 import CreativeToggle from "../../utils/Toggle/CreativeToggle";
-import daniotMihrete from "../../assets/daniotMihrete";
+// import daniotMihrete from "../../assets/daniotMihrete.HEIC";
 import "./Home.css";
 
 function Home() {
@@ -30,7 +30,7 @@ function Home() {
 								<div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
 									<div className="text-4xl font-bold font-poppins gradient-text">
 										<img
-											src={daniotMihrete}
+											src={"hello"}
 											alt="Daniot Mihrete Logo"
 											className="h-8 w-auto transition-transform duration-300 group-hover:scale-110"
 										/>
