@@ -11,7 +11,7 @@ function Home() {
 	return (
 		<div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white font-inter relative overflow-hidden">
 			{/* Background decorative elements - More subtle */}
-			<div className="absolute inset-0 overflow-hidden">
+			<div className="absolute inset-0">
 				<div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-rose-500/10 to-purple-600/10 rounded-full blur-3xl animate-float"></div>
 				<div
 					className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-orange-500/10 to-red-600/10 rounded-full blur-3xl animate-float"
