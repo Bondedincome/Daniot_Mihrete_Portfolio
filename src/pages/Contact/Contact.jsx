@@ -220,9 +220,7 @@ function Contact() {
 								</div>
 								<div>
 									<p className="text-sm text-slate-400">Email</p>
-									<p className="text-white font-medium">
-										hello@daniotmihrete.com
-									</p>
+									<a href="mailto:daniotmw10@gmail.com" className="text-white font-medium hover:underline">daniotmw10@gmail.com</a>
 								</div>
 							</div>
 
@@ -250,7 +248,7 @@ function Contact() {
 								</div>
 								<div>
 									<p className="text-sm text-slate-400">Location</p>
-									<p className="text-white font-medium">Remote / Worldwide</p>
+									<p className="text-white font-medium">Addis Ababa / Ethiopia</p>
 								</div>
 							</div>
 						</div>
