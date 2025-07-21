@@ -5,17 +5,17 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Stock Managment System",
       description: "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      technologies: ["React", "Node.js", "PostgresSQL", "Prisma", "ExpressJS", "Tailwind CSS"],
       image: "https://via.placeholder.com/400x250/1e293b/ffffff?text=E-Commerce",
       link: "#"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "Firebase", "Socket.io", "Tailwind CSS"],
+      title: "Telegram Support Bot",
+      description: " A Telegram bot for customer support, built with Python and MongoDB. It automates responses, manages user queries, and integrates with external APIs.",
+      technologies: ["Telegram", "PythonAnywhere", "Python", "MongoDB"],
       image: "https://via.placeholder.com/400x250/1e293b/ffffff?text=Task+App",
       link: "#"
     },
@@ -23,7 +23,7 @@ function Projects() {
       id: 3,
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website showcasing creative development work with smooth animations and elegant design.",
-      technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
+      technologies: ["React", "Tailwind CSS", "Figma", "Vite"],
       image: "https://via.placeholder.com/400x250/1e293b/ffffff?text=Portfolio",
       link: "#"
     }
